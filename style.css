@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(img/snow_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+/*? ANIMATION KEYFAMES */
+@keyframes cloud {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 5000px;
+    }
+}
+
+/*? ANIMATION KEYFAMES END*/
+
+.app {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.cloud {
+    background: url(img/cloud.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    animation: cloud 35s linear infinite;
+}
+
+.rain {
+    background: url(img/rain.png);
+    background-size: cover;
+    animation: rain;
+}
+
