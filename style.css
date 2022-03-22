@@ -33,7 +33,7 @@ body {
     width: 100%;
 }
 
-.cloud {
+.snow {
     background: url(img/snow.png);
     background-size: cover;
     opacity: .25;
